@@ -5,7 +5,9 @@ buttons.forEach(button => {
   button.addEventListener('click', (event) => {
     switch (event.target.value) {
       case 'AC':
+        display.value = ' ';
         display.value = '0';
+        break;
       case 'C':
         display.value = display.value.slice(0, -1); 
         break;
