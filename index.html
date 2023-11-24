@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="main-container">
+        <div class="display-container">
+          <input type="text" disabled value="0" id="display" />
+        </div>
+        <div class="button-container">
+          <div class="button-row">
+            <input type="button" class="button big-button" value="AC" />
+            <input type="button" class="button" value="C" />
+            <input type="button" class="button opr-button" value="÷" />
+          </div>
+          <div class="button-row">
+            <input type="button" class="button" value="9" />
+            <input type="button" class="button" value="8" />
+            <input type="button" class="button" value="7" />
+            <input type="button" class="button opr-button" value="×" />
+          </div>
+          <div class="button-row">
+            <input type="button" class="button" value="6" />
+            <input type="button" class="button" value="5" />
+            <input type="button" class="button" value="4" />
+            <input type="button" class="button opr-button" value="-" />
+          </div>
+          <div class="button-row">
+            <input type="button" class="button" value="3" />
+            <input type="button" class="button" value="2" />
+            <input type="button" class="button" value="1" />
+            <input type="button" class="button opr-button" value="+" />
+          </div>
+          <div class="button-row">
+            <input type="button" class="button very-big-button" value="0" />
+            <input type="button" class="button opr-button" value="=" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
